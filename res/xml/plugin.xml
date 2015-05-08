@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+
+    <!-- plugin uexSMS -->
+    <plugin
+        className="org.zywx.wbpalmstar.plugin.uexsms.EUExSMS"
+        uexName="uexSMS" >
+        <method name="open" />
+        <method name="send" />
+    </plugin>
+
+</uexplugins>
