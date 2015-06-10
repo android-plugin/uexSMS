@@ -3,9 +3,8 @@
 
       <plugin
         className="org.zywx.wbpalmstar.plugin.uexsms.EUExSMS"
-        uexName="uexSMS" version="3.0" build="0">
+        uexName="uexSMS" version="3.0.1" build="1">
         <method name="open" />
-        <method name="send" />
     </plugin>
     
 </uexplugins>
