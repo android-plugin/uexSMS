@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexSMS" version="3.0.1" build="1">
+        uexName="uexSMS" version="3.0.2" build="2">
+        <info>2:兼容老版本插件</info>
         <build>1:去掉直接发送短信功能</build>
-        <info>0:短信功能插件</info>
+        <build>0:短信功能插件</build>
     </plugin>
 </uexplugins>
