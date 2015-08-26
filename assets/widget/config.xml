@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<widget widgetId="" appId="11352882" channelCode="000" height="480" sreensize="3.5" version="00.00.0002" width="320"> 
+<widget widgetId="" appId="11352882" channelCode="000" height="480" sreensize="3.5" version="00.00.0002" width="320">
   <name>uexSMS</name>  
   <description>管理widget应用</description>  
   <author email="3g2win@mail.com">3g2win</author>  
@@ -13,5 +13,5 @@
   <showmyspace>false</showmyspace>  
   <bgcolor>#fefefe</bgcolor>  
   <widgetOne version="[widgetOneVersion]"/>  
-  <orientation>15</orientation> 
+  <orientation>15</orientation>
 </widget>
