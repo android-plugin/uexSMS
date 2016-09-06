@@ -4,23 +4,25 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
     }
 }
-
 apply plugin: 'com.android.application'
-
 
 repositories {
     flatDir {
         dirs 'libs'
     }
+    maven {
+        url 'https://raw.githubusercontent.com/android-plugin/mvn-repo/master/'
+    }
 }
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
-    compile(name: "Engine-system-release-4.0.0", ext: 'aar')
+    compile ('org.appcan:engine:+:systemRelease@aar')
 }
-
-
 android {
     compileSdkVersion 22
     buildToolsVersion "23.0.2"

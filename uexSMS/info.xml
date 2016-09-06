@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexSMS" version="4.0.0" build="4">
-        <info>4:4.0插件</info>
-        <build>3:plugin文件中添加send接口，兼容老版本插件</build>
-        <build>2:兼容老版本插件</build>
-        <build>1:去掉直接发送短信功能</build>
-        <build>0:短信功能插件</build>
+        uexName="uexSMS" version="4.0.0" build="0">
+        <info>0:短信功能插件</info>
     </plugin>
 </uexplugins>
